@@ -45,12 +45,12 @@ docker &nbsp;logs &nbsp;--tail&nbsp; [number] &nbsp;容器id  &emsp;#num为要�
 
 ## 进入当前正在运行的容器  
 ### 方法一:  
-# docker exec -it 容器ID /bin/bash
+docker exec -it 容器ID /bin/bash
 ### 方法二: 
-# docker attach 容器ID  
+docker attach 容器ID  
 ## 其他  
-# docker top 容器ID &emsp;#查看容器中进程信息  
-# docker inspect 容器id  &emsp;#查看容器的元数据  
+docker top 容器ID &emsp;#查看容器中进程信息  
+docker inspect 容器id  &emsp;#查看容器的元数据  
 
 
 
