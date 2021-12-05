@@ -40,8 +40,20 @@ docker restart 容器id     &emsp;   #重启容器
 docker stop 容器id        &emsp;   #停止当前运行的容器  
 docker kill 容器id        &emsp;   #强制停止当前容器  
 
-## 查看日志
-docker &nbsp;logs &nbsp;--tail&nbsp; [number] &nbsp;容器id  &emsp;#num为要显示的日志条数
+## 查看日志  
+docker &nbsp;logs &nbsp;--tail&nbsp; [number] &nbsp;容器id  &emsp;#num为要显示的日志条数  
+
+## 进入当前正在运行的容器  
+### 方法一:  
+# docker exec -it 容器ID /bin/bash
+### 方法二: 
+# docker attach 容器ID  
+## 其他  
+# docker top 容器ID &emsp;#查看容器中进程信息  
+# docker inspect 容器id  &emsp;#查看容器的元数据  
+
+
+
 
 
 
