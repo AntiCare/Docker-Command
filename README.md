@@ -41,7 +41,7 @@ docker stop 容器id        &emsp;   #停止当前运行的容器
 docker kill 容器id        &emsp;   #强制停止当前容器  
 
 ## 查看日志
-docker logs --tail [number] 容器id  &emsp;#num为要显示的日志条数
+docker &nbsp;logs &nbsp;--tail&nbsp; [number] &nbsp;容器id  &emsp;#num为要显示的日志条数
 
 
 
